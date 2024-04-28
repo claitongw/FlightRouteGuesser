@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightRouteGuesser.API", "FlightRouteGuesser\FlightRouteGuesser.API.csproj", "{F79B107C-995B-4DC7-9A71-44B4458DC578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightRouteGuesser.Application", "FlightRouteGuesser.Application\FlightRouteGuesser.Application.csproj", "{3A6D9E17-68A9-493A-AA81-6028DB784CAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightRouteGuesser.Core", "FlightRouteGuesser.Core\FlightRouteGuesser.Core.csproj", "{AC201F98-99EA-425D-82B2-F0E3E45FAB6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightRouteGuesser.Infra", "FlightRouteGuesser.Infra\FlightRouteGuesser.Infra.csproj", "{6FA03255-826A-4A55-86A4-BA5DEC6CFAF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F79B107C-995B-4DC7-9A71-44B4458DC578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79B107C-995B-4DC7-9A71-44B4458DC578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79B107C-995B-4DC7-9A71-44B4458DC578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79B107C-995B-4DC7-9A71-44B4458DC578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6D9E17-68A9-493A-AA81-6028DB784CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6D9E17-68A9-493A-AA81-6028DB784CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6D9E17-68A9-493A-AA81-6028DB784CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6D9E17-68A9-493A-AA81-6028DB784CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC201F98-99EA-425D-82B2-F0E3E45FAB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC201F98-99EA-425D-82B2-F0E3E45FAB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC201F98-99EA-425D-82B2-F0E3E45FAB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC201F98-99EA-425D-82B2-F0E3E45FAB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA03255-826A-4A55-86A4-BA5DEC6CFAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA03255-826A-4A55-86A4-BA5DEC6CFAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA03255-826A-4A55-86A4-BA5DEC6CFAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA03255-826A-4A55-86A4-BA5DEC6CFAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E6BD83E-9933-448D-8570-4E0A6192F86B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@FlightRouteGuesser_HostAddress = http://localhost:5159
+
+GET {{FlightRouteGuesser_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
